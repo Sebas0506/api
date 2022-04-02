@@ -7,8 +7,57 @@
     <title>Document</title>
 </head>
 <body>
-    <button type="button" id="btnClientes">Cargar Clientes</button>
-    <select name="" id="lstClientes"></select>
+    <div id="app">
+    <button type="button" id="btnClient">Cargar Clientes</button>
+    <select name="" id="lstClient"></select>
+    <button type="button" id="btnProduct">Cargar Productos</button>
+    <select name="" id="lstProduct"></select>
+
+    <div id="productos">
+        <div id="detProductos"></div>
+        <form action="" id="frmProduct">
+            <label for="txtnProduct">
+                Nombre: <input type="text" name="" id="txtnProduct">
+            </label>
+        </form>
+        <form action="" id="frmPrice">
+            <label for="txtnPrice">
+                Precio: <input type="text" name="" id="txtnPrice">
+            </label>
+        </form>
+        <form action="" id="frmQuantity">
+            <label for="txtnQuantity">
+                Cantidad: <input type="text" name="" id="txtnQuantity">
+            </label>
+        </form>
+        <button type="button" id="btnAddProd">Agregar</button>
+        <button type="reset" id="btnDelProd">Cancelar</button>
+        </form>
+    </div> 
+    </div>
+    <p>
+    <div id="clients">
+        <div id="detClient"></div>
+        <form action="" id="frmName">
+            <label for="txtnName">
+                Nombre: <input type="text" name="" id="txtnName">
+            </label>
+        </form>
+        <form action="" id="frmRfc">
+            <label for="txtnRfc">
+                Rfc: <input type="text" name="" id="txtnRfc">
+            </label>
+        </form>
+        <form action="" id="frmZipcode">
+            <label for="txtnZipcode">
+                Zipcode: <input type="text" name="" id="txtnZipcode">
+            </label>
+        </form>
+        <button type="button" id="btnAddClient">Agregar</button>
+        <button type="reset" id="btnDelClient">Cancelar</button>
+        </form>
+    </div> 
+    </div>
 </body>
 <script src="js/app.js"></script>
 </html>
